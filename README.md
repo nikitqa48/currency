@@ -10,11 +10,11 @@ http://localhost:8000/docs/
 ### Alembic create migrations
 don't turn off container and run
 ```
-docker run backend-currency alembic revision --autogenerate -m 'migration name'
+docker-compose run web alembic revision --autogenerate -m 'migration name'
 ```
 ### apply migration
 ```
-docker run backend-currency upgrade head 
+docker-compose run web upgrade head 
 ```
 
 ### example API
