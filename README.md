@@ -14,7 +14,7 @@ docker-compose run web alembic revision --autogenerate -m 'migration name'
 ```
 ### apply migration
 ```
-docker-compose run web upgrade head 
+docker-compose run web alembic upgrade head 
 ```
 
 ### example API
