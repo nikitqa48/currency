@@ -37,6 +37,8 @@ Content-Length: 4
 
 http://localhost:8000/convert/
 
+BODY: 
+
 {
     "original": "USD",
     "target": "RUB",
