@@ -8,7 +8,7 @@ class Rate(Base):
 
     :param title: название валюты
     :param code: код валюты
-    :param exchange: курс
+    :param currency: валюта
     """
 
     __tablename__ = "rate"
@@ -23,7 +23,6 @@ class Currency(Base):
 
     :param title: название валюты
     :param code: код валюты
-    :param exchange: курс
     """
 
     __tablename__ = "currency"

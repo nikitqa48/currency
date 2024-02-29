@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "fastapi-base"
+name = "currency"
 version = "0.1.0"
 description = ""
-authors = ["Popov Nikita nikitqaa1901@gmail.com"]
+authors = ["Popov Nikita <nikitqaa1901@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

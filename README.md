@@ -6,6 +6,18 @@ docker-compose -f docker-compose.yml up --build -d
 ### DOCS
 http://localhost:8000/docs/
 
+### POETRY
+
+for using posetry run 
+```
+pip install poetry
+```
+then run 
+```
+
+```
+
+
 
 ### Alembic create migrations
 don't turn off container and run
@@ -38,13 +50,13 @@ Content-Length: 4
 http://localhost:8000/convert/
 
 BODY: 
-
+```
 {
     "original": "USD",
     "target": "RUB",
     "amount": 10000
 }
-
+```
 ### Response
 HTTP/1.1 200 ok
 Date: Thu, 24 Feb 2011 12:36:30 GMT
