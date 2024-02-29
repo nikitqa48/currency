@@ -6,18 +6,6 @@ docker-compose -f docker-compose.yml up --build -d
 ### DOCS
 http://localhost:8000/docs/
 
-### POETRY
-
-for using posetry run 
-```
-pip install poetry
-```
-then run 
-```
-
-```
-
-
 
 ### Alembic create migrations
 don't turn off container and run
